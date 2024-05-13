@@ -17,6 +17,18 @@ body {
   justify-content: center;
   align-items: center;
 }
+#lesmer {
+  padding-top: 1rem;
+  color: cyan;
+}
+#lesmer2 {
+  color: cyan;
+  margin-top: 1.3rem;
+}
+#lesmer3 {
+  color: cyan;
+  margin-top: 2.2rem;
+}
 a {
   color: inherit; /* this makes the link color the same as the text color */
   text-decoration: none; /* this removes the underline */
@@ -24,7 +36,6 @@ a {
 .header{
   display: flex;
   justify-content: space-evenly;
-  background-color: black;
   padding: 0.5rem;
   color: white;  
 
@@ -52,4 +63,68 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.iconCloud { 
+  padding-left: 0.5rem;
+}
+.iconUser {
+  margin-top: 0.6rem;
+}
+.iconSecurity {
+  padding-left: 0.2rem;
+  padding-top: 0.6rem;
+}
+
+.body1 h1{
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+.body1 p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 0rem;
+}
+.Butten {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 3rem;
+  margin-bottom: 10rem;
+  background: linear-gradient(to top,skyblue, #4e6486);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: background-color 100ms ease;
+}
+
+.Butten:hover {
+  background-color: skyblue;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #11272e;
+  color: white;
+  height: 15rem;
+  width: 15rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius:10px;
+  border: 2px solid #39475e;
+}
+.box p {
+  display: flex;
+  font-size: 0.7rem;
+  padding-left: 0.5rem;
+  color: gray;
+}
+.box h1 {
+  display: flex;
+  margin: 0.5rem;
+  font-size: 1rem;
 }
