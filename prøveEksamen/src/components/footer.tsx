@@ -20,7 +20,7 @@ function Footer() {
             <br />
             Telefon: 12345678
             <br />
-            E-post:
+            E-post: epost123@epost.com
           </p>
         </div>
         <div className="FølgOss">
