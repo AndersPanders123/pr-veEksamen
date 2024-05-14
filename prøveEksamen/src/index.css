@@ -93,7 +93,7 @@ a {
   padding-right: 2rem;
   margin: 3rem;
   margin-bottom: 10rem;
-  background: linear-gradient(to top,skyblue, #4e6486);
+  background: linear-gradient(to top,#4e6486, skyblue );
   border-radius: 5px;
   border: none;
   font-size: 1.5rem;
@@ -116,6 +116,7 @@ a {
   margin-left: 1rem;
   border-radius:10px;
   border: 2px solid #39475e;
+  margin-bottom: 10rem;
 }
 .box p {
   display: flex;
@@ -127,4 +128,41 @@ a {
   display: flex;
   margin: 0.5rem;
   font-size: 1rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #11272e;
+  color: white;
+  height: 15rem;
+  margin-top: 10rem;
+  padding-right: 9rem;
+}
+.footer img {
+  max-width: 13rem;
+}
+.footer p {
+  display: flex;
+  font-size: 0.7rem;
+  padding-left: 0.5rem;
+  color: gray;
+}
+.footer h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+}
+.KontaktOss {
+  display: flex;
+  flex-direction: column;
+}
+.FølgOss {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+#footertxt {
+  margin-top: 1rem;
 }
