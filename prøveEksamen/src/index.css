@@ -98,11 +98,11 @@ a {
   border: none;
   font-size: 1.5rem;
   color: white;
-  transition: background-color 100ms ease;
+  transition: background 600ms ease;
 }
 
 .Butten:hover {
-  background-color: skyblue;
+  background: skyblue;
 }
 
 .box {
