@@ -21,6 +21,8 @@ function Ansattboxer() {
           <img src={ansatt3} alt="" />
           <p>Lukas "Kåppang" Olsen</p>
         </div>
+      </div>
+      <div className="row">
         <div className="boxAnsatt">
           <img src={ansatt4} alt="" />
           <p>Sheldon Cooper</p>
