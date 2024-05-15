@@ -29,6 +29,12 @@ body {
   color: cyan;
   margin-top: 2.2rem;
 }
+#lesmer4 {
+  color: cyan;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
 a {
   color: inherit; /* this makes the link color the same as the text color */
   text-decoration: none; /* this removes the underline */
@@ -207,4 +213,36 @@ a {
   width: 650px;
   height: 500px;
   border-radius: 25px;
+}
+
+.cookie-popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 17rem;
+  height: 10rem;
+  background-color: #11272e;
+  color: white;
+  border: 1px solid #39475e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.cookie-popup p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.cb {
+  background-color: #39475e;
+  color: white;
+  border: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  
 }
