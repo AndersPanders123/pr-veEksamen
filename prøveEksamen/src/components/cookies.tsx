@@ -26,7 +26,7 @@ function Cookies() {
     <>
       {showCookiePopup && (
         <div className="cookie-popup">
-          <p>Denne netsiden bruker Cookies</p>
+          <p>Denne nettsiden bruker Cookies</p>
           <div>
             <button className="cb" onClick={handleAcceptCookies}>
               Aksepter
