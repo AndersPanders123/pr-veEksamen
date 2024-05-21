@@ -1,5 +1,6 @@
 import Ansattboxer from "./ansattBoxes";
 function Annsatte() {
+  console.log("Ansatte");
   return (
     <div>
       <div className="body1">
