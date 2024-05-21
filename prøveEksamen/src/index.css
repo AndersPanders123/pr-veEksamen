@@ -69,16 +69,20 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: cyan;
 }
 .iconCloud { 
   padding-left: 0.5rem;
+  color: cyan;
 }
 .iconUser {
   margin-top: 0.6rem;
+  color: cyan;
 }
 .iconSecurity {
   padding-left: 0.2rem;
   padding-top: 0.6rem;
+  color: cyan;
 }
 
 .body1 h1{
